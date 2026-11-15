@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eng_dl_server">%1$s %2$s डाउनलोड हो रहा है…</string>
+    <string name="eng_verify">डाउनलोड जाँचा जा रहा है…</string>
+    <string name="eng_dl_java">Java %1$d डाउनलोड हो रहा है…</string>
+    <string name="eng_unpack_java">Java %1$d खोला जा रहा है…</string>
+    <string name="eng_check_java">Java %1$d जाँचा जा रहा है…</string>
+    <string name="eng_forge_installer">Forge इंस्टॉलर चल रहा है…</string>
+    <string name="eng_spigot_unsupported">Spigot फ़ोन पर नहीं बन सकता — Paper इस्तेमाल करें, वह Spigot प्लगइन चलाता है</string>
+
+    <string name="eng_err_checksum">डाउनलोड की फ़ाइल खराब है (चेकसम मेल नहीं खाता): %1$s</string>
+    <string name="eng_err_no_build">Minecraft %2$s के लिए %1$s का कोई बिल्ड नहीं मिला</string>
+    <string name="eng_err_forge_failed">Forge इंस्टॉलर विफल रहा (कोड %1$d)</string>
+    <string name="eng_err_forge_missing">Forge इंस्टॉलर पूरा हुआ लेकिन लॉन्च फ़ाइलें नहीं मिलीं</string>
+    <string name="eng_err_java_bad">Java %1$d शुरू नहीं हो सका: %2$s</string>
+    <string name="eng_err_java_missing">%1$s पर Java नहीं मिला</string>
+    <string name="eng_err_not_installed">सर्वर इंस्टॉल नहीं है</string>
+    <string name="eng_err_eula">पहले Minecraft EULA स्वीकार करें</string>
+    <string name="eng_err_server_missing">सर्वर नहीं मिला</string>
+    <string name="eng_err_running">सर्वर पहले से चल रहा है</string>
+    <string name="eng_err_start_failed">सर्वर शुरू नहीं हो सका: %1$s</string>
+
+    <string name="eng_msg_preparing">तैयारी हो रही है…</string>
+    <string name="eng_msg_crash_code">कोड %1$d के साथ बंद हुआ</string>
+    <string name="eng_msg_crash_code_detail">कोड %1$d के साथ बंद हुआ: %2$s</string>
+
+    <string name="eng_sys_starting">Java %1$d के साथ शुरू हो रहा है: %2$s</string>
+    <string name="eng_sys_exited">प्रोसेस कोड %1$d के साथ बंद हुआ</string>
+    <string name="eng_sys_autorestart">%1$d सेकंड में अपने-आप रीस्टार्ट (प्रयास %2$d / %3$d)</string>
+    <string name="eng_sys_autorestart_giveup">बार-बार क्रैश हुआ — ऑटो-रीस्टार्ट बंद किया गया</string>
+    <string name="eng_sys_stopping">सर्वर बंद हो रहा है…</string>
+    <string name="eng_sys_force">सर्वर समय पर बंद नहीं हुआ — ज़बरदस्ती बंद किया जा रहा है…</string>
+    <string name="eng_sys_not_running">सर्वर चल नहीं रहा</string>
+
+    <string name="notif_channel">चल रहे सर्वर</string>
+    <string name="notif_channel_desc">Minecraft सर्वर चलने पर दिखता है</string>
+    <plurals name="notif_title">
+        <item quantity="one">%1$d सर्वर चल रहा है</item>
+        <item quantity="other">%1$d सर्वर चल रहे हैं</item>
+    </plurals>
+    <string name="notif_stop_all">सब बंद करें</string>
+    <string name="notif_state_installing">तैयारी</string>
+    <string name="notif_state_starting">शुरू हो रहा है</string>
+    <string name="notif_state_running">चल रहा है</string>
+    <string name="notif_state_stopping">बंद हो रहा है</string>
+    <string name="notif_state_crashed">क्रैश हुआ</string>
+    <string name="notif_state_stopped">बंद</string>
+    <string name="notif_players">%1$d ऑनलाइन</string>
+</resources>

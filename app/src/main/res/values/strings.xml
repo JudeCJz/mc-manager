@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MCManager</string>
+
+    <!-- Navigation -->
+    <string name="nav_servers">Servers</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common words -->
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_restart">Restart</string>
+    <string name="action_kill">Kill</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_back">Back</string>
+    <string name="action_close">Close</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_create">Create</string>
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_search">Search</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_share">Share</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_install">Install</string>
+    <string name="action_update">Update</string>
+    <string name="action_open">Open</string>
+
+    <string name="loading">Loading…</string>
+    <string name="empty_nothing_here">Nothing here yet</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="confirm_title">Are you sure?</string>
+
+    <!-- Server states -->
+    <string name="state_stopped">Stopped</string>
+    <string name="state_installing">Installing</string>
+    <string name="state_starting">Starting</string>
+    <string name="state_running">Running</string>
+    <string name="state_stopping">Stopping</string>
+    <string name="state_crashed">Crashed</string>
+</resources>

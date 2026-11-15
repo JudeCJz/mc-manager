@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MCManager</string>
+
+    <string name="nav_servers">सर्वर</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <string name="action_start">शुरू करें</string>
+    <string name="action_stop">रोकें</string>
+    <string name="action_restart">रीस्टार्ट</string>
+    <string name="action_kill">ज़बरदस्ती बंद करें</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_ok">ठीक है</string>
+    <string name="action_yes">हाँ</string>
+    <string name="action_no">नहीं</string>
+    <string name="action_delete">हटाएँ</string>
+    <string name="action_save">सहेजें</string>
+    <string name="action_back">वापस</string>
+    <string name="action_close">बंद करें</string>
+    <string name="action_retry">फिर कोशिश करें</string>
+    <string name="action_create">बनाएँ</string>
+    <string name="action_add">जोड़ें</string>
+    <string name="action_edit">बदलें</string>
+    <string name="action_rename">नाम बदलें</string>
+    <string name="action_refresh">रीफ़्रेश</string>
+    <string name="action_search">खोजें</string>
+    <string name="action_copy">कॉपी करें</string>
+    <string name="action_share">शेयर करें</string>
+    <string name="action_confirm">पुष्टि करें</string>
+    <string name="action_install">इंस्टॉल करें</string>
+    <string name="action_update">अपडेट करें</string>
+    <string name="action_open">खोलें</string>
+
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="empty_nothing_here">यहाँ अभी कुछ नहीं है</string>
+    <string name="error_generic">कुछ गड़बड़ हो गई</string>
+    <string name="coming_soon">जल्द आ रहा है</string>
+    <string name="confirm_title">क्या आप सुनिश्चित हैं?</string>
+
+    <string name="state_stopped">बंद</string>
+    <string name="state_installing">इंस्टॉल हो रहा है</string>
+    <string name="state_starting">शुरू हो रहा है</string>
+    <string name="state_running">चालू</string>
+    <string name="state_stopping">बंद हो रहा है</string>
+    <string name="state_crashed">क्रैश हुआ</string>
+</resources>

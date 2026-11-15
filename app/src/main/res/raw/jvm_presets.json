@@ -1,0 +1,75 @@
+[
+  {
+    "id": "aikar",
+    "name": "Aikar's flags",
+    "description": "Well-known G1 tuning for Paper servers. Commits all RAM up front (AlwaysPreTouch), so it needs free memory.",
+    "minJava": 8,
+    "flags": [
+      "-XX:+UseG1GC",
+      "-XX:+ParallelRefProcEnabled",
+      "-XX:MaxGCPauseMillis=200",
+      "-XX:+UnlockExperimentalVMOptions",
+      "-XX:+DisableExplicitGC",
+      "-XX:+AlwaysPreTouch",
+      "-XX:G1NewSizePercent=30",
+      "-XX:G1MaxNewSizePercent=40",
+      "-XX:G1HeapRegionSize=8M",
+      "-XX:G1ReservePercent=20",
+      "-XX:G1HeapWastePercent=5",
+      "-XX:G1MixedGCCountTarget=4",
+      "-XX:InitiatingHeapOccupancyPercent=15",
+      "-XX:G1MixedGCLiveThresholdPercent=90",
+      "-XX:G1RSetUpdatingPauseTimePercent=5",
+      "-XX:SurvivorRatio=32",
+      "-XX:+PerfDisableSharedMem",
+      "-XX:MaxTenuringThreshold=1",
+      "-Dusing.aikars.flags=https://mcflags.emc.gs",
+      "-Daikars.new.flags=true"
+    ]
+  },
+  {
+    "id": "phone",
+    "name": "Phone (recommended)",
+    "description": "Aikar's flags without AlwaysPreTouch and with shorter GC pauses. Best default for phones.",
+    "minJava": 8,
+    "flags": [
+      "-XX:+UseG1GC",
+      "-XX:+ParallelRefProcEnabled",
+      "-XX:MaxGCPauseMillis=130",
+      "-XX:+UnlockExperimentalVMOptions",
+      "-XX:+DisableExplicitGC",
+      "-XX:G1NewSizePercent=30",
+      "-XX:G1MaxNewSizePercent=40",
+      "-XX:G1HeapRegionSize=8M",
+      "-XX:G1ReservePercent=20",
+      "-XX:G1HeapWastePercent=5",
+      "-XX:G1MixedGCCountTarget=4",
+      "-XX:InitiatingHeapOccupancyPercent=15",
+      "-XX:G1MixedGCLiveThresholdPercent=90",
+      "-XX:G1RSetUpdatingPauseTimePercent=5",
+      "-XX:SurvivorRatio=32",
+      "-XX:+PerfDisableSharedMem",
+      "-XX:MaxTenuringThreshold=1",
+      "-Dusing.aikars.flags=https://mcflags.emc.gs",
+      "-Daikars.new.flags=true"
+    ]
+  },
+  {
+    "id": "zgc",
+    "name": "ZGC",
+    "description": "Low-pause collector. Needs Java 21 or newer and more RAM.",
+    "minJava": 21,
+    "flags": [
+      "-XX:+UseZGC",
+      "-XX:+ZGenerational",
+      "-XX:+DisableExplicitGC"
+    ]
+  },
+  {
+    "id": "minimal",
+    "name": "Minimal",
+    "description": "Only memory size and the GC chosen in server settings. No extra tuning.",
+    "minJava": 8,
+    "flags": []
+  }
+]

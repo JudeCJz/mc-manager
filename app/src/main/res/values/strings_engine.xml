@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eng_dl_server">Downloading %1$s %2$s…</string>
+    <string name="eng_verify">Verifying download…</string>
+    <string name="eng_dl_java">Downloading Java %1$d…</string>
+    <string name="eng_unpack_java">Unpacking Java %1$d…</string>
+    <string name="eng_check_java">Checking Java %1$d…</string>
+    <string name="eng_forge_installer">Running the Forge installer…</string>
+    <string name="eng_spigot_unsupported">Spigot can\'t be built on a phone — use Paper, it runs Spigot plugins</string>
+
+    <string name="eng_err_checksum">Downloaded file is corrupted (checksum mismatch): %1$s</string>
+    <string name="eng_err_no_build">No %1$s build found for Minecraft %2$s</string>
+    <string name="eng_err_forge_failed">Forge installer failed (exit code %1$d)</string>
+    <string name="eng_err_forge_missing">The Forge installer finished but the launch files were not found</string>
+    <string name="eng_err_java_bad">Java %1$d could not start: %2$s</string>
+    <string name="eng_err_java_missing">Java not found at %1$s</string>
+    <string name="eng_err_not_installed">Server not installed</string>
+    <string name="eng_err_eula">Accept the Minecraft EULA first</string>
+    <string name="eng_err_server_missing">Server not found</string>
+    <string name="eng_err_running">Server is already running</string>
+    <string name="eng_err_start_failed">Could not start the server: %1$s</string>
+
+    <string name="eng_msg_preparing">Preparing…</string>
+    <string name="eng_msg_crash_code">Exited with code %1$d</string>
+    <string name="eng_msg_crash_code_detail">Exited with code %1$d: %2$s</string>
+
+    <string name="eng_sys_starting">Starting with Java %1$d: %2$s</string>
+    <string name="eng_sys_exited">Process exited with code %1$d</string>
+    <string name="eng_sys_autorestart">Auto-restart in %1$d s (attempt %2$d of %3$d)</string>
+    <string name="eng_sys_autorestart_giveup">Crashed too many times — auto-restart stopped</string>
+    <string name="eng_sys_stopping">Stopping server…</string>
+    <string name="eng_sys_force">Server did not stop in time — forcing it to quit…</string>
+    <string name="eng_sys_not_running">Server is not running</string>
+
+    <string name="notif_channel">Running servers</string>
+    <string name="notif_channel_desc">Shows while a Minecraft server is running</string>
+    <plurals name="notif_title">
+        <item quantity="one">%1$d server running</item>
+        <item quantity="other">%1$d servers running</item>
+    </plurals>
+    <string name="notif_stop_all">Stop all</string>
+    <string name="notif_state_installing">Preparing</string>
+    <string name="notif_state_starting">Starting</string>
+    <string name="notif_state_running">Running</string>
+    <string name="notif_state_stopping">Stopping</string>
+    <string name="notif_state_crashed">Crashed</string>
+    <string name="notif_state_stopped">Stopped</string>
+    <string name="notif_players">%1$d online</string>
+</resources>
